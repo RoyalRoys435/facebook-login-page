@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+   background: azure;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    gap: 50px;
+    margin-right: 100px;
+}
+.heading{
+    position: relative;
+    
+}
+.heading h2{
+    font-size: 4em;
+    color: rgb(46, 88, 224);
+}
+.heading p{
+    font-size: 27px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    border: 1px  black;
+    height: 300px;
+    box-shadow: 0 0 5px  black;
+    margin: 0 50px;
+    background: white;
+    border-radius: 5px;
+
+}
+input{
+    padding: 0 20px;
+    margin-top: 2px;
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+   border-radius: 6px;
+  border: 1px solid rgb(206, 205, 205);
+  outline: none;
+  font-size: 20px;
+}
+input[type=submit]{
+background:rgb(46, 88, 224) ;
+color: white;
+height: 40px;
+cursor: pointer;
+margin-bottom: 10px;
+}
+.input button{
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: rgb(87, 182, 87);
+    border: none;
+    color: white;
+    cursor: pointer;
+    
+}
+.input a{
+    text-decoration: none;
+    color: rgb(63, 63, 199);
+    gap:20px;
+    font-size: 15px;
+
+}
+hr{
+    border: 1px solid grey;
+    width: 90%;
+    height: 0;
+    filter: brightness(1.5);
+   margin-top: 20px;
+}
