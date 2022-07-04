@@ -17,6 +17,7 @@ body{
 }
 .heading{
     position: relative;
+    min-height:35vh;
     
 }
 .heading h2{
